@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Perforce Swarm</string>
+	<key>Extension Identifier</key>
+	<string>com.perforce.popclip.extension.swarm</string>
+	<key>Extension Description</key>
+	<string>Opens up Swarm with the highlighted item (change or job)</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://swarm.perforce.com/{popclip text}</string>
+			<key>Image File</key>
+			<string>SwarmIcon.png</string>
+			<key>Title</key>
+			<string>Perforce Swarm</string>
+            <key>Regular Expression</key>
+            <string>^(job)?\d+$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
